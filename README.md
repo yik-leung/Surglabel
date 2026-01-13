@@ -1,7 +1,75 @@
-# Surglabel
+# Surglabel 🩺
 
-Annotation software designed for labeling surgical triplets
+An annotation software specially designed for labeling surgical videos.
 
-We are working on merging the two tools into one. Meanwhile, our paper is still under review.
+The two annotation tools previously mentioned in the ProstaTD project have now been merged into this single, unified annotation software.
 
-*Both tools will be released with the final version of the paper.*
+No AI features have been added — most of our workflow involves doctors correcting raw AI predictions.  
+We deliberately keep the tool lightweight, because too many complex features tend to make doctors reluctant to use it (based on our practical experience).
+
+## ✨ Features
+
+- Single image annotation support: rectangle & polygon, with attribute editing (triplets, track ID, image-level tags, etc.)
+- Batch annotation based on segmentation / bbox instances
+- Batch annotation across different separation groups that belong to the same instance
+- Many shortcuts and UI hints optimized after extensive feedback from doctors (e.g. highlight selected elements)
+- Highly customizable settings for colors, line styles, label display, etc.
+- When the same instances appear at the same time, they will be sorted by different coordinate orders to assist batch annotation
+- Also supports batch annotation by track ID
+- …and more
+
+→ For more features and detailed instructions, please click the Help button in the menu.
+
+## 🚀 Installation
+
+### Option 1: Windows (Zero Installation)
+
+Just download the latest `surglabel.exe` and double-click to run.
+
+### Option 2: pip install (Windows / Ubuntu / macOS)
+
+```bash
+git clone https://github.com/yik-leung/Surglabel.git
+cd Surglabel
+pip install -r requirements.txt
+python main.py
+```
+
+## 📼 Quick Start & Demo
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/ad0619f6-c89f-4ce5-a612-409233a7f3ed" alt="Surglabel Demo" width="800"></video>
+</p>
+
+This demo video only shows a small fraction of what Surglabel can actually do. In real use, it actually supports switching between different modes easily, batch-annotating thousands of frames quickly, has reasonably good shortcuts, and handles complex instance tracking and grouping across long surgical videos pretty well.
+
+For complete hotkeys, all available modes, tips & tricks, and detailed usage instructions →  please click the Help button in the top menu after launching the software.
+
+## ⚠️ Current Limitations
+
+Because the merging of two tools was done under time pressure, some parts remain quite specialized/customized.
+
+For example:
+- Image files in a folder **must be named with consecutive natural numbers**  
+  (correct: `1.jpg`, `2.jpg`, `3.jpg`, …)  
+  (problematic: `00001.jpg`, `00002.jpg`, `frame_001.jpg`, etc. — may cause bugs)
+- Some very specific workflows are still tuned to our internal projects
+
+If you run into any bugs, unexpected behavior, or have suggestions for improvement, please feel free to open an issue on GitHub or email me directly.
+
+## 🙏 Acknowledgments
+
+- Core annotation logic heavily inspired by [labelme](https://github.com/wkentaro/labelme)
+
+## 📄 Citation
+
+If you find Surglabel helpful in your research or projects, please consider citing the associated paper:
+
+```bibtex
+@article{chen2025prostatd,
+  title     = {ProstaTD: Bridging Surgical Triplet from Classification to Fully Supervised Detection},
+  author    = {Yiliang Chen and Zhixi Li and Cheng Xu and Alex Qinyang Liu and Ruize Cui and Xuemiao Xu and Jeremy Yuen-Chun Teoh and Shengfeng He and Jing Qin},
+  journal   = {arXiv preprint arXiv:2506.01130},
+  year      = {2025}
+}
+Since this tool has added a lot of task-specific features for various surgical annotation tasks, we'll add a citation for this tool in future publications when relevant.
