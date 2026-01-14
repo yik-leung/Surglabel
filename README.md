@@ -35,7 +35,7 @@ python main.py
 ## 📼 Quick Start & Demo
 
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/8c72120a-6a4e-4e49-b44d-bbf754c9fdbb" alt="Surglabel Demo" width="800"></video>
+  <video src="https://github.com/user-attachments/assets/9cfae53a-a627-424f-b3b0-32ab38a50d8a" alt="Surglabel Demo" width="800"></video>
 </p>
 
 This demo video only shows a small fraction of what Surglabel can actually do. In real use, it actually supports switching between different modes easily, batch-annotating thousands of frames quickly, has reasonably good shortcuts, and handles complex instance tracking and grouping across long surgical videos pretty well.
