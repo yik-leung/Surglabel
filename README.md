@@ -38,7 +38,7 @@ python main.py
   <video src="https://github.com/user-attachments/assets/9cfae53a-a627-424f-b3b0-32ab38a50d8a" alt="Surglabel Demo" width="800"></video>
 </p>
 
-This demo video only shows a small fraction of what Surglabel can actually do. In real use, it actually supports switching between different modes easily, batch-annotating thousands of frames quickly, has reasonably good shortcuts, and handles complex instance tracking and grouping across long surgical videos pretty well.
+This demo video only shows a small fraction of what Surglabel can actually do. In real use, it actually supports batch-annotating thousands of frames quickly or segmentation instances....
 
 For complete hotkeys, all available modes, tips & tricks, and detailed usage instructions →  please click the Help button in the top menu after launching the software.
 
