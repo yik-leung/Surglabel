@@ -69,4 +69,6 @@ If you find Surglabel helpful in your research or projects, please consider citi
   journal   = {arXiv preprint arXiv:2506.01130},
   year      = {2025}
 }
+```
+
 Since this tool has added a lot of task-specific features for various surgical annotation tasks, we'll add a citation for this tool in future publications when relevant.
