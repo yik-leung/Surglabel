@@ -2,10 +2,7 @@
 
 An annotation software specially designed for labeling surgical videos.
 
-The two annotation tools previously mentioned in the ProstaTD project have now been merged into this single, unified annotation software.
-
-No AI features have been added — most of our workflow involves doctors correcting raw AI predictions.  
-We deliberately keep the tool lightweight, because too many complex features tend to make doctors reluctant to use it (based on our practical experience).
+The two annotation tools previously mentioned in the ProstaTD project have now been merged into this single, unified annotation software. We have deliberately avoided adding AI features, as most of our workflow revolves around doctors correcting raw AI predictions. The tool is kept intentionally lightweight, since overly complex features often make doctors reluctant to use it (based on my practical experience).
 
 ## ✨ Features
 
