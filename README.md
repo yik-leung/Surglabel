@@ -44,12 +44,12 @@ For complete hotkeys, all available modes, tips & tricks, and detailed usage ins
 
 ## ⚠️ Current Limitations
 
-Because the merging of two tools was done under time pressure, some parts remain quite specialized/customized.
+Because the merging of two tools was done under time pressure, some parts remain quite specialized/customized. Future updates may address these problems.
 
 For example:
 - Image files in a folder **must be named with consecutive natural numbers**  
-  (correct: `1.jpg`, `2.jpg`, `3.jpg`, …)  
-  (problematic: `00001.jpg`, `00002.jpg`, `frame_001.jpg`, etc. — may cause bugs)
+  (✅ correct: `1.jpg`, `2.jpg`, `3.jpg`, …) ✅ Currently support format
+  (❌ problematic: `00001.jpg`, `00002.jpg`, `frame_001.jpg`, etc.) ❌ may cause bugs
 - Some very specific workflows are still tuned to our internal projects
 
 If you run into any bugs, unexpected behavior, or have suggestions for improvement, please feel free to open an issue on GitHub or email me directly.
