@@ -48,7 +48,8 @@ Because the merging of two tools was done under time pressure, some parts remain
 
 For example:
 - Image files in a folder **must be named with consecutive natural numbers**  
-  (✅ Currently support format: `1.jpg`, `2.jpg`, `3.jpg`, …) 
+  (✅ Currently support format: `1.jpg`, `2.jpg`, `3.jpg`, …)
+  
   (❌ May cause bugs format   : `00001.jpg`, `00002.jpg`, `frame_001.jpg`, etc.) 
 - Some very specific workflows are still tuned to our internal projects
 
